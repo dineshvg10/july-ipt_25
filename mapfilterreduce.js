@@ -15,3 +15,7 @@ let moa =[10,15,20,25,30]
 let foa =moa.filter((val,ind,act)=>act>=20)
 console.log(foa);
 
+//reduce
+let r =[10,20,30,40]
+let re = r.reduce((x,y)=>x*y)
+console.log(re);
